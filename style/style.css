@@ -1,6 +1,7 @@
 body {
     color: rgb(29, 29, 29);
-
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -189,6 +190,7 @@ ul {
 footer {
     background-color: rgb(29, 29, 29);
     color: rgb(241, 211, 255);
+    width: 100%;
 }
 
 .footer-content {
@@ -196,7 +198,7 @@ footer {
     text-align: center;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin: 1%;
+    margin-top: 1%;
 }
 
 .footer-logo {
